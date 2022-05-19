@@ -12,7 +12,6 @@ final class ModelManager {
 
     private var figure: Figure!
     private var animationSpeed: Double = 0
-    private var attractor: Attractor!
     private var attractorModel: AttractorModel!
     private init() { }
 
@@ -20,7 +19,7 @@ final class ModelManager {
         animationSpeed = Double(figure.animationSpeed)
         if self.figure == nil || !figure.isEqualModel(to: self.figure) {
             self.figure = figure
-            attractor = makeAttractor(figure: figure)
+            let attractor = makeAttractor(figure: figure)
             attractorModel = AttractorModel(attractor: attractor)
             attractorModel.setup()
         }
