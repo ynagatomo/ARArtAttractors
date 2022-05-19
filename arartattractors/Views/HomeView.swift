@@ -68,7 +68,6 @@ struct HomeView: View {
         }
         .onAppear {
             figureSet.setup()   // Setup the ViewModel
-            MetalLibLoader.shared.initialize()
         }
     }
 }

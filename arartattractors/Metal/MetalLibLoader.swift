@@ -9,16 +9,15 @@ import MetalKit
 
 final class MetalLibLoader {
     static var shared = MetalLibLoader()
-    private init() {}
+    private init() {
+        initialize()
+    }
 
-    var isInitialized = false
     // var textureCache: CVMetalTextureCache!
     var mtlDevice: MTLDevice!
     var library: MTLLibrary!
 
-    func initialize() {
-        guard !isInitialized else { return }
-
+    private func initialize() {
         guard let device = MTLCreateSystemDefaultDevice() else {
             fatalError("failed to create a system default Metal device.")
         }
@@ -33,7 +32,5 @@ final class MetalLibLoader {
             fatalError("failed to create a default Metal library.")
         }
         self.library = library
-
-        isInitialized = true
     }
 }
