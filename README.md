@@ -52,7 +52,7 @@ The structure:
 - Data Model: Attractor, CliffordAttractor, etc.
 - Metal: MetalLibLoader, surfaceShader
 
-![Image](https://user-images.githubusercontent.com/66309582/169302577-b530598e-4bc1-4afd-8183-8099f4b8e9b7.png)
+![Image](https://user-images.githubusercontent.com/66309582/169422495-2aeca43c-8804-49a1-bb4d-7e882c9bac09.png)
 
 ## References
 
