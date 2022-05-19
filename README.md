@@ -43,9 +43,20 @@ Please modify it and make your own AR app!
 ![Image](https://user-images.githubusercontent.com/66309582/169184872-96cb6273-8115-4435-983a-7a1d46503f04.png)
 ![GIF](https://user-images.githubusercontent.com/66309582/169184908-84fa8e14-c3ab-4899-a6d4-c8d8e75940b9.gif)
 
+The structure:
+
+- Views: HomeView, FigureView, ARContainerView, etc.
+- ViewModel: FigureSet, Figure
+- AR Scene State Management: ARScene
+- 3D Model Management: ModelManager, AttractorModel
+- Data Model: Attractor, CliffordAttractor, etc.
+- Metal: MetalLibLoader, surfaceShader
+
+![Image](https://user-images.githubusercontent.com/66309582/169197314-857688b0-5b8e-410e-9096-84386a05c828.png)
+
 ## References
 
-- Apple Documentation: [Article Modifying RealityKit Rendering Using Custom Materials](https://developer.apple.com/documentation/realitykit/modifying_realitykit_rendering_using_custom_materials)
+- Apple Documentation: Article [Modifying RealityKit Rendering Using Custom Materials](https://developer.apple.com/documentation/realitykit/modifying_realitykit_rendering_using_custom_materials)
 
 ![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)
 
