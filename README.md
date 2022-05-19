@@ -1,6 +1,6 @@
 # AR Art Attractors
 
-![AppIcon]()
+![AppIcon](https://user-images.githubusercontent.com/66309582/169184025-28376a03-abc9-41b1-b6ad-5b0431be6e78.png)
 
 A minimal iOS AR(Augumented Reality) app that displays 3D graphic arts in AR.
 It uses attractor systems.
@@ -38,9 +38,10 @@ ARKit and RealityKit display these 3d geometries in the realtime AR scene.
 The project is a minimal implementation.
 Please modify it and make your own AR app!
 
-![Image]()
-![Image]()
-![GIF]()
+![Image](https://user-images.githubusercontent.com/66309582/169184612-efaaa53c-e25c-4921-86b6-998228ebcce9.png)
+![Image](https://user-images.githubusercontent.com/66309582/169184790-873d6e02-aacf-4348-9d39-a11d4f7bd1f6.png)
+![Image](https://user-images.githubusercontent.com/66309582/169184872-96cb6273-8115-4435-983a-7a1d46503f04.png)
+![GIF](https://user-images.githubusercontent.com/66309582/169184908-84fa8e14-c3ab-4899-a6d4-c8d8e75940b9.gif)
 
 ## References
 
